@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+*{                 /*---- saca el estilo del navegador----*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Zain", sans-serif;
+}
+
+/*!----------------------------header-----------------------------------------------------------------*/
+
+header{
+    background-color: black;
+    padding: 10px; /*separa los elementos del bode*/
+}
+
+h1{ /*da formato a los h1*/
+    color: white;
+    font-size: 60px; 
+    font-style: normal;
+}
+
+header nav ul{ /*saca las viñetas de la ul*/
+    list-style: none;
+}
+
+header nav ul li a{ /*saca el decorado al a */
+    text-decoration: none;
+    color: white;
+    margin: 10px; /*separa los elementos de la barra de navegación*/
+}
+
+
+/*?-----------------------main------------------------------------------------------------------------*/
+.hero{
+    text-align: center;
+    height: 70vh; /*le doy tamaño que se acomode al alto del navegador del dispositivo*/
+    background-image: url(../img/banner.jpg); /*coloco la imagen de fondo del contenedor*/
+    background-size: cover; /*hace que se acomode la imagen al tamaño del contenedor*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /*desplaza la imagen */
+}
+
+.hero h2{
+        font-size: 60px;
+        border: 3px solid white; /*realiza el bode del h2 del banner*/
+        display: inline-block;
+        padding: 10px;
+}
+
+.hero p{
+    font-size: 20px;
+    margin: 15px 15px; /*separa el p del botón por encima y por debajo 15px*/
+}
+
+.hero a{
+    text-decoration: none; /*saca ek subrayado del enlace*/
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px; /*airea el link de la caja en 10px*/
+}
+
+.botones {
+    color: black;
+    background-color: yellow;
+
+}
+
+.bienvenidos img{
+    width: 400px;
+    height: 500px;
+}
+
+.productos div img{
+    width: 300px;
+    height: 300px;
+}
+
+/**-----------------------footer----------------------------------------------------------------------*/
+
+footer{
+    background-color: grey;
+}
